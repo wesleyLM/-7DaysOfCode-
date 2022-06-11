@@ -34,4 +34,4 @@ let stringDez = '10'
   console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }</code>
 
-[solucão](https://github.com/wesleyLM/-7DaysOfCode-/blob/main/LogicaJS1-7OperacoesBooleanas.js)
+[Solucão](https://github.com/wesleyLM/-7DaysOfCode-/blob/main/LogicaJS1-7OperacoesBooleanas.js)
