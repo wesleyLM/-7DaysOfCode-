@@ -65,4 +65,4 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 1 > Muito bom! Continue estudando e você terá muito sucesso.
 2 > Ahh que pena... Já tentou aprender outras linguagens?
 
-[Solucão]([https://github.com/wesleyLM/-7DaysOfCode-/blob/main/LogicaJS1-7OperacoesBooleanas.js](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%202-7%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Vari%C3%A1veis.html))
+[Solucão](https://github.com/wesleyLM/-7DaysOfCode-/blob/main/LogicaJS1-7OperacoesBooleanas.js](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%202-7%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Vari%C3%A1veis.html)
