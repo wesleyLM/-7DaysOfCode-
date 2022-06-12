@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica JS 2-7👩🏽‍💻 Variáveist</title>
+</head>
+<body>
+    <script>
+        let nome = prompt('Qual o seu nome?')
+        let qtdAnos = prompt('Quantos anos você tem?') 
+        let lingProg = prompt('Qual linguagem de programação você está estudando?')
+
+        alert(`Olá ${nome}, você tem ${qtdAnos} anos e já está aprendendo ${lingProg}!`)
+
+        let pergunta = prompt(`Você gosta de estudar ${lingProg}? Responda com o número 1 para SIM ou 2 para NÃO.`)
+        switch(pergunta){
+            case '1':alert('Muito bom! Continue estudando e você terá muito sucesso.');
+                break
+            case '2':alert('Ahh que pena... Já tentou aprender outras linguagens?');
+                break
+            default: alert('Resposta invalida');
+        }
+    </script>
+</body>
+</html>
