@@ -83,4 +83,4 @@ O importante é que a pessoa que estiver jogando possa sempre escolher qual deci
 
 Além disso, também é essencial que, ao final do jogo, ela possa inserir quantas tecnologias quiser na lista de aprendizado.
 
-[Solução]()
+[Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%203-7%20Fluxo%20de%20decis%C3%A3o.html)
