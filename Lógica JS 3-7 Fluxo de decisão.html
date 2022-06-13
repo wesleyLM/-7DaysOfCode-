@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica JS 3/7: Fluxo de decisão</title>
+</head>
+<body>
+    <script>
+        let biblioteca;
+        let teste = true
+
+
+        while(teste){        
+            let AreaAtuacao = prompt('Qual formação você deseja seguir? Front-End ou Back-End').toLocaleLowerCase()
+
+            if(AreaAtuacao == 'front-end'){
+                teste = false
+                biblioteca = prompt('O que você quê aprender React ou Vue')
+            
+            }else if(AreaAtuacao == 'back-end'){
+                teste = false
+                biblioteca = prompt('O que você quê aprender C# ou Java')
+
+            }
+            else {
+                teste = true
+                alert('Valor invalido')
+            }
+        }
+        teste = true
+
+
+        let carreira = prompt(`O que vc vai fazer seguir se especializando em ${biblioteca} ou seguir se desenvolvendo para se tornar Fullstack.`)
+
+                    
+
+        while(teste){
+            let tecnologias = prompt('Quais são as tecnologias nas quais você gostaria de se especializar ou de conhecer')
+            
+            alert(`${tecnologias}!! Excelente escolha parabéns`)
+            
+            let maisTecnologia = prompt('Tem mais alguma tecnologia que você gostaria de aprender? digite "OK" para continuar').toLocaleLowerCase()
+
+            if(maisTecnologia == 'ok')
+                teste = true
+            else if(maisTecnologia.length || maisTecnologia == 'não')
+                teste = false
+        }
+
+
+    </script>
+</body>
+</html>
