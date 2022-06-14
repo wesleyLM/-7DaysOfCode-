@@ -94,7 +94,7 @@ Além disso, também é essencial que, ao final do jogo, ela possa inserir quant
 
 [Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%203-7%20Fluxo%20de%20decis%C3%A3o.html)
 
-#7DaysOfCode - Lógica JS 4/7: 👩🏽‍💻 Mais loops e randomização
+## 7DaysOfCode - Lógica JS 4/7: 👩🏽‍💻 Mais loops e randomização
 
 Você deve criar um programinha que comece com um valor específico pré-definido entre 0 a 10 para o número que você vai adivinhar (7, por exemplo).
 
