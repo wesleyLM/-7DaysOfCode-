@@ -3,10 +3,14 @@
 <h2>Desafios</h2>
 
 
-[Desafio JS 1/7](#lógica-js-17-operações-booleanas)
-[Desafio JS 2/7]()
-[Desafio JS 3/7]()
-[Desafio JS 4/7]()
+⨀ [Desafio JS 1/7](#lógica-js-17-operações-booleanas)
+
+⨀ [Desafio JS 2/7](#7daysofcode---lógica-js-27--variáveis)
+
+⨀ [Desafio JS 3/7](#7daysofcode---lógica-js-37-fluxo-de-decisão)
+
+⨀ [Desafio JS 4/7](#7daysofcode---lógica-js-47--mais-loops-e-randomização)
+
 
 
 ## Lógica JS 1/7: Operações Booleanas
