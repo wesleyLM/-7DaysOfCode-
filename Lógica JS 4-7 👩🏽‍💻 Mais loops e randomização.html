@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mais loops e randomização</title>
 </head>
+
 <body>
     <script>
         let tentativas = 2;
-        let sorteio = 4
         let chute = Number(prompt(`Eu te desafio acertar o número! 
-        Sera que vai conseguir adivinha? Você tem ${tentativas} tentativas!`))
-        if(chute !== sorteio){
-            while(tentativas > 0){
-                 
-                let novoChute = prompt(`Tente novamente! vc tem ${tentativas} tentativas sobrando: `)
-                tentativas--
-                if(novoChute == sorteio){
-                    alert(`Parabéns você acertou !!`)
-                    break
-                }               
+        Sera que vai conseguir adivinha? Você tem ${tentativas + 1} tentativas!`));
+
+
+        jogoDaSorte(chute, sorteio(10, 0))
+
+        function jogoDaSorte(chute, numSorte) {
+            if (chute !== numSorte) {
+                while (tentativas > 0) {
+
+                    let novoChute = prompt(`Tente novamente! vc tem ${tentativas} tentativas sobrando: `)
+
+                    tentativas--
+
+                    if (novoChute == numSorte) {
+                        return alert(`Parabéns você acertou !!`)
+                    }
+                }
+                alert(`Infelizmente não foi dessa vez :/ Resposta certa ${numSorte}`)
+            } else {
+                return alert(`Parabéns você acertou !!`)
             }
-            alert(`Infelizmente não foi dessa vez :/ Resposta certa ${sorteio}`)       
-        }else{
-            alert(`Parabéns você acertou !!`)
+        }
+
+
+        function sorteio(max, min) {
+            return Math.floor(Math.random() * (max - min + 1) + min)
         }
 
 
     </script>
 </body>
+
 </html>
