@@ -84,3 +84,15 @@ O importante é que a pessoa que estiver jogando possa sempre escolher qual deci
 Além disso, também é essencial que, ao final do jogo, ela possa inserir quantas tecnologias quiser na lista de aprendizado.
 
 [Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%203-7%20Fluxo%20de%20decis%C3%A3o.html)
+
+#7DaysOfCode - Lógica JS 4/7: 👩🏽‍💻 Mais loops e randomização
+
+Você deve criar um programinha que comece com um valor específico pré-definido entre 0 a 10 para o número que você vai adivinhar (7, por exemplo).
+
+Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar e, caso você acerte, ele irá te parabenizar. Caso erre, ele vai te dar mais 2 tentativas.
+
+No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
+
+Depois que o programinha estiver funcionando, tente usar um número randômico em vez de um número pré-definido.
+
+[Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%204-7%20%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Mais%20loops%20e%20randomiza%C3%A7%C3%A3o.html)
