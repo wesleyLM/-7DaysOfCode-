@@ -1,6 +1,15 @@
 <h1>Projetos feitos no #7DaysOfCode</h1>
 
-#Lógica JS 1/7: Operações Booleanas
+<h2>Desafios</h2>
+
+
+[Desafio JS 1/7]()
+[Desafio JS 2/7]()
+[Desafio JS 3/7]()
+[Desafio JS 4/7]()
+
+
+# Lógica JS 1/7: Operações Booleanas
 
 <p>Sendo assim, a sua tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:</p>
   
