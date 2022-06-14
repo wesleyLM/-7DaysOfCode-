@@ -3,13 +3,13 @@
 <h2>Desafios</h2>
 
 
-[Desafio JS 1/7]()
+[Desafio JS 1/7](#lógica-js-17-operações-booleanas)
 [Desafio JS 2/7]()
 [Desafio JS 3/7]()
 [Desafio JS 4/7]()
 
 
-# Lógica JS 1/7: Operações Booleanas
+## Lógica JS 1/7: Operações Booleanas
 
 <p>Sendo assim, a sua tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:</p>
   
@@ -45,7 +45,7 @@ let stringDez = '10'
 
 [Solucão](https://github.com/wesleyLM/-7DaysOfCode-/blob/main/LogicaJS1-7OperacoesBooleanas.js)
 
-#7DaysOfCode - Lógica JS 2/7: 👩🏽‍💻 Variáveis
+## 7DaysOfCode - Lógica JS 2/7: 👩🏽‍💻 Variáveis
 
 Desenvolver um programa simulando um desses sites. Ele deve pedir para o usuário responder 3 perguntas:
 
@@ -76,7 +76,7 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 
 [Solucão](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%202-7%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Vari%C3%A1veis.html)
 
-#7DaysOfCode - Lógica JS 3/7: Fluxo de decisão
+## 7DaysOfCode - Lógica JS 3/7: Fluxo de decisão
 
 Seu desafio de hoje é criar os destinos possíveis de um jogo, em que o usuário consiga escolher:
 
