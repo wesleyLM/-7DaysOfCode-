@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remoção de Arrays</title>
+</head>
+
+<body>
+    <script>
+
+        let lista = { 'Frutas': [], 'Laticínios': [], 'Congelados': [], 'Doces': [], 'Grãos': [] }
+
+        let teste = true
+
+        while(teste){
+            
+            for (let item in lista){
+                if(lista[item].length !== 0){
+                    removerItem(lista[item])
+                }
+            }
+
+            let addList = prompt('Deseja adicionar uma comida na sua lista de compras ? sim ou não ').trim().toLocaleLowerCase()
+
+            if (addList == 'sim') {
+                adicionarItem()
+            } else {
+                teste = false;
+                alert(mostrarLista())
+            }
+        }
+
+        function removerItem(array){
+            let remList = prompt('Deseja Remover uma comida na sua lista de compras ? sim ou não ').trim().toLocaleLowerCase()
+            if(remList == 'sim'){
+                let removerQuest = prompt(`${mostrarLista()} 
+                Qual deles deseja remover ?`).trim()
+                for( let i = 0; i < array.length; i++){ 
+    
+                    if ( array[i] === removerQuest) { 
+                        array.splice(i, 1);
+                        alert(`${removerQuest} foi removido com sucessor!!`) 
+                    }else{
+                        alert('Não foi possível encontrar o item dentro da lista!')
+                    }
+                }
+
+            }else{
+                return
+            }
+        }
+
+        function mostrarLista(){ 
+            let mensagem = 'Lista de Compras: '
+            let mensagemLista = ''
+            for (let item in lista){
+                mensagemLista = `
+                ${item}: ${lista[item].toString()}`;
+                mensagem += mensagemLista
+                
+            }
+            return mensagem;
+        }
+
+        function adicionarItem(){
+            let produto = prompt('Qual comida você deseja inserir ? ')
+    
+            let categoria = prompt('Qual categoria essa comida se encaixa: frutas,grãos, laticínios, congelados e doces').trim().toLocaleLowerCase()
+
+            for (let item in lista) {
+                if (item.toLocaleLowerCase() == categoria) lista[item].push(produto)
+            }
+        }
+    </script>
+</body>
+
+</html>
