@@ -11,6 +11,8 @@
 
 ⨀ [Desafio JS 4/7](#7daysofcode---lógica-js-47--mais-loops-e-randomização)
 
+⨀ [Desafio JS 5/7](#7daysofcode---lógica-js-57-arrays-e-coleções)
+
 
 
 ## Lógica JS 1/7: Operações Booleanas
@@ -109,3 +111,29 @@ No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número 
 Depois que o programinha estiver funcionando, tente usar um número randômico em vez de um número pré-definido.
 
 [Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%204-7%20%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Mais%20loops%20e%20randomiza%C3%A7%C3%A3o.html)
+
+## 7DaysOfCode - Lógica JS 5/7: Arrays e coleções
+
+Então hoje, para facilitar a sua ida ao supermercado, você deve criar um programa em Javascript que perguntará se você deseja adicionar uma comida na sua lista de compras, e você deve poder responder com sim ou não.
+
+Em seguida, ele perguntará qual comida você deseja inserir, e você digitará o nome dela, como por exemplo batata.
+
+Depois, ele deverá perguntar em qual categoria essa comida se encaixa, com algumas opções já pré-definidas, como frutas, laticínios, congelados, doces e o que mais você achar interessante. Assim, você poderá separar tudo no seu devido grupo.
+
+Por fim, caso você não queira mais adicionar nada na lista de compras e responder não na primeira pergunta, ele irá exibir uma lista com todos os itens agrupados, da seguinte forma:
+
+Caso você adicione na sua lista:
+
+´banana, leite em pó, tomate, leite vegetal, chiclete, bala de ursinho, maçã, uva, abacate e leite de vaca´
+
+O programa deverá imprimir, por exemplo:
+
+<code>Lista de compras:
+  
+    Frutas: banana, tomate, maçã, uva, abacate
+    Laticínios: leite vegetal, leite de vaca, leite em pó
+    Congelados:
+    Doces: chiclete e bala de ursinho</code>
+    
+
+[Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%205-7%20Arrays%20e%20cole%C3%A7%C3%B5es.html)
