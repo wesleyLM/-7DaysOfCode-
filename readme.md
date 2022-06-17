@@ -15,6 +15,8 @@
 
 ⨀ [Desafio JS 6/7](#7daysofcode---lógica-js-67--remoção-de-arrays)
 
+⨀ [Desafio JS 7/7](#7daysofcode---lógica-js-77-funções-em-javascript)
+
 
 
 ## Lógica JS 1/7: Operações Booleanas
@@ -157,3 +159,15 @@ Por exemplo: “Não foi possível encontrar o item dentro da lista!”
 Lembre-se que a opção de remover um item só deverá estar disponível a partir do momento que existir ao menos um elemento dentro da lista de compras.
 
 [Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%206-7%20%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%20Remo%C3%A7%C3%A3o%20de%20Arrays.html)
+
+## 7DaysOfCode - Lógica JS 7/7: Funções em Javascript
+
+Neste último desafio, a minha proposta para você é: crie a sua própria calculadora, porém com um detalhe muito importante: cada operação deverá ser uma função diferente no seu código.
+
+Primeiramente, a pessoa deverá escolher uma opção de operação impressa pelo programa na tela.
+
+Depois, ela deverá inserir os dois valores que deseja utilizar, e o programa imprimirá o resultado da operação em questão.
+
+As opções disponíveis deverão ser: soma, subtração, multiplicação, divisão, e sair. Nessa última, o programa deverá parar de ser executado, mostrando uma mensagem "Até a próxima".
+
+[Solução](https://github.com/wesleyLM/7DaysOfCode/blob/main/L%C3%B3gica%20JS%207-7%20Fun%C3%A7%C3%B5es%20em%20Javascript.html)
