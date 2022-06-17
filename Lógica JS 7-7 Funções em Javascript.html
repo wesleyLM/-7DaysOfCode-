@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções em Javascript</title>
+</head>
+<body>
+    <script>
+        let teste = true
+        while(teste){
+            let operacao = prompt('Qual operação vai executar ? 1 - somar, 2 - subtração, 3 - multiplicação , 4 - divisão, 5 - sair').trim()
+
+            switch (operacao) {
+                case '1':
+                    teste = false;
+                    soma();
+                    break;
+                case '2':
+                    teste = false;
+                    subt();
+                    break;
+                case '3':
+                    teste = false;
+                    mult()
+                    break;
+                case '4':
+                    teste = false;
+                    div()
+                    break;
+                case '5':
+                    teste = false;
+                    alert("Até a próxima")
+                    break;
+                default:
+                    alert('Operação invalida')
+                    teste = true;
+                    break;
+            }
+        }
+
+        function soma(){
+            let n1 = Number(prompt('Digite um numero: '))
+            let n2 = Number(prompt('Digite outro número:'))
+            alert(`Resultado: ${n1 + n2}`)
+        }
+
+        function mult(){
+            let n1 = Number(prompt('Digite um numero: '))
+            let n2 = Number(prompt('Digite outro número:'))
+            alert(`Resultado: ${n1 * n2}`)
+        }
+
+        function subt(){
+            let n1 = Number(prompt('Digite um numero: '))
+            let n2 = Number(prompt('Digite outro número:'))
+            alert(`Resultado: ${n1 - n2}`)
+        }
+        
+        function div(){
+            let n1 = Number(prompt('Digite um numero: '))
+            let n2 = Number(prompt('Digite outro número:'))
+            alert(`Resultado: ${n1 / n2}`)
+        }
+    </script>
+</body>
+</html>
